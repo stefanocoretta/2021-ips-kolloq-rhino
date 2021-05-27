@@ -1,0 +1,91 @@
+---
+title: "Rhinoglottophilia, here we go again"
+subtitle: "A field trip from the nasal cavity to the larynx"
+author: "Stefano Coretta"
+institute: "IPA @ LMU"
+date: "2021/06/10"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css:
+      - default
+      - ipa-fonts.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+knitr::opts_knit$set(root.dir = here::here())
+options(htmltools.dir.version = FALSE)
+library(tidyverse)
+theme_set(theme_minimal())
+options(
+  ggplot2.discrete.fill = c("#a6611a", "#018571", "#264653", "#2a9d8f", "#a8dadc", "#457b9d", "#e76f51")
+)
+library(xaringanExtra)
+use_xaringan_extra(c("panelset", "tachyons"))
+```
+
+
+class: inverse bg-black middle center
+
+# .small-caps[language context]
+
+---
+
+# Solomon Islands
+
+![](solomons-map.png)
+
+---
+class: center middle
+
+![](santa-isabel-pa99_en.png)
+
+---
+
+# Cheke Holo
+
+
+---
+
+# Nominalisation
+
+| Pattern | Verb              |                       | Noun          |                         |
+|---------|-------------------|-----------------------|---------------|-------------------------|
+| I       | p-, t-, k-        | /pore/ 'to comb'      | pʰ-, tʰ-, kʰ- | /pʰore/ 'comb'      |
+| II      | r-, l-            | /lehe/ 'to die'       | gr-, gl-      | /glehe/ 'death'      |
+| III     | ɣ-                | /ɣor̥a/ 'to paddle'   | g-            | /gor̥a/ 'paddle'     |
+| IV      | h-                | /haru/ 'to tie'       | n̥-           | /n̥aru/ 'knot'     |
+| V       | D-, N-, /ʔ/-, CC- | /dafi/ 'to be bright' | /na/-         | /nadafi/ 'sun'   |
+|         |                   | /moia/ 'to be dry'    |               | /namoia/ 'reef'     |
+|         |                   | /ʔugra/ 'to fish'     |               | /naʔugra/ 'fishing' |
+|         |                   | /fnera/ 'to wound'    |               | /nafnera/ 'wound'   |
+
+---
+
+# Once source or many?
+
+.pull-left[
+**Tryon & Hackman (1983)**
+
+* Only mention Pattern I and II.
+
+* Pattern I: .dark-green[**obscure morphological process**].
+
+* Pattern II: .dark-green[**POc \*ga- '.small-caps[instr]'**].
+]
+
+--
+
+.pull-right[
+**White et al. (1988) and White (1995)**
+
+* Discuss all five patterns.
+
+* .dark-green[**Analysed as morphological processes**].
+
+]
