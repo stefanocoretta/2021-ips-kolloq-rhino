@@ -89,3 +89,45 @@ class: center middle
 * .dark-green[**Analysed as morphological processes**].
 
 ]
+
+---
+class: inverse
+background-image: url("key-hole.jpg")
+
+# Pattern V is the key
+
+# dafi ~ na-dafi
+
+Photo by <a href="https://unsplash.com/@deleece?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Deleece Cook</a> on <a href="https://unsplash.com/s/photos/key?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+---
+
+# POc \*_na_
+
+---
+
+# Cheke Holo nominalisation
+
+.panelset[
+
+.panel[.panel-name[Pattern V]
+
+]
+
+.panel[.panel-name[Pattern IV]
+
+]
+
+.panel[.panel-name[Pattern III]
+
+]
+
+.panel[.panel-name[Pattern II]
+
+]
+
+.panel[.panel-name[Pattern I]
+
+]
+
+]
