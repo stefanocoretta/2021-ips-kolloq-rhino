@@ -104,6 +104,29 @@ Photo by <a href="https://unsplash.com/@deleece?utm_source=unsplash&utm_medium=r
 
 # POc \*_na_
 
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+POc \*_na_ is a **determiner** (Lynch et al. 2011:70–72, Blevins & Kaufman 2012).
+]
+
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+- It marks a NP as **definite**.
+- Mostly with non-human entities.
+]
+
+--
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+**Reflexes** can be found in several oceanic languages.
+
+In Santa Isabel languages:
+
+- Zabana _na_-.
+- Kokota _-na_.
+- Blablanga _-na_.
+
+]
+
 ---
 
 # Cheke Holo nominalisation
@@ -111,19 +134,49 @@ Photo by <a href="https://unsplash.com/@deleece?utm_source=unsplash&utm_medium=r
 .panelset[
 
 .panel[.panel-name[Pattern V]
+.bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
+/dafi/ 'to be bright' > /nadafi/ 'sun'
 
+➤ Retention of POc definite article.
+
+➤ Loss of determinacy meaning. > Becomes a nominaliser.
+]
 ]
 
 .panel[.panel-name[Pattern IV]
+.bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
+/naru/ 'to tie' > /n̥aru/ 'knot'
 
+➤ Historical change \*H(V)R and \*R(V)H > R̥ in Cheke Holo.
+]
+
+.bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
+PSIs *_namaha_ > Z _namaha_, CH /nam̥a/ 'love'
+
+PCH \*_na-haru_ > \*_nharu_ > /n̥aru/
+]
 ]
 
 .panel[.panel-name[Pattern III]
+.bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
+(\*nɣ > \*ng > \*ⁿg > g): fortition and loss of prenasalisation
 
+➤ Record of loss of prenasalisation in Bughotu (Ivens 1933)
+
+PCH \*na-ɣapa > CH \*nɣapa > \*ⁿgapa > /gapa/ 'step'
+]
 ]
 
 .panel[.panel-name[Pattern II]
+.bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
+(\*nr > \*ngr > \*ⁿgr > gr, \*nl > \*ngl > \*ⁿgl > gl):
 
+excrescent stop and loss of prenasalisation
+
+PCH \*na-lehe (from /lehe/ ‘to die’) > \*nlehe > \*ⁿglehe > /glehe/ ‘death’
+
+place lenition to nasal glide (placeless) N/[ŋ] (Ohala & Lorentz 1977, Howe 2004), velarised liquids (Recasens 2011)
+]
 ]
 
 .panel[.panel-name[Pattern I]
