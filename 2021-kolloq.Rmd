@@ -2,7 +2,7 @@
 title: "Rhinoglottophilia, here we go again"
 subtitle: "A field trip from the nasal cavity to the larynx"
 author: "Stefano Coretta"
-institute: "IPA @ LMU"
+institute: "IPS @ LMU"
 date: "2021/06/10"
 output:
   xaringan::moon_reader:
@@ -10,10 +10,12 @@ output:
     css:
       - default
       - ipa-fonts.css
+      - custom.css
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      beforeInit: "macros.js"
 ---
 
 ```{r setup, include=FALSE}
@@ -29,6 +31,10 @@ library(xaringanExtra)
 use_xaringan_extra(c("panelset", "tachyons"))
 ```
 
+background-image: url("maggie-hung-5biCgPHSJaQ-unsplash.jpg")
+background-size: cover
+
+---
 
 class: inverse bg-black middle center
 
@@ -38,8 +44,9 @@ class: inverse bg-black middle center
 
 # Solomon Islands
 
-![](solomons-map.png)
-
+.center[
+![:scale 80%](solomons-map.png)
+]
 ---
 class: center middle
 
@@ -49,6 +56,12 @@ class: center middle
 
 # Cheke Holo
 
+
+---
+
+class: inverse bg-black middle center
+
+# .small-caps[nominalisation]
 
 ---
 
@@ -69,7 +82,6 @@ class: center middle
 
 # Once source or many?
 
-.pull-left[
 **Tryon & Hackman (1983)**
 
 * Only mention Pattern I and II.
@@ -77,28 +89,24 @@ class: center middle
 * Pattern I: .dark-green[**obscure morphological process**].
 
 * Pattern II: .dark-green[**POc \*ga- '.small-caps[instr]'**].
-]
 
 --
 
-.pull-right[
 **White et al. (1988) and White (1995)**
 
 * Discuss all five patterns.
 
 * .dark-green[**Analysed as morphological processes**].
 
-]
 
 ---
-class: inverse
+class: inverse bottom right
 background-image: url("key-hole.jpg")
 
 # Pattern V is the key
 
-# dafi ~ na-dafi
+# /dafi/ ~ /na-dafi/
 
-Photo by <a href="https://unsplash.com/@deleece?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Deleece Cook</a> on <a href="https://unsplash.com/s/photos/key?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ---
 
@@ -108,6 +116,7 @@ Photo by <a href="https://unsplash.com/@deleece?utm_source=unsplash&utm_medium=r
 POc \*_na_ is a **determiner** (Lynch et al. 2011:70–72, Blevins & Kaufman 2012).
 ]
 
+--
 
 .bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
 - It marks a NP as **definite**.
@@ -128,59 +137,200 @@ In Santa Isabel languages:
 ]
 
 ---
+class: inverse bg-black middle center
 
-# Cheke Holo nominalisation
+# .small-caps[diachrony]
+
+---
+
+# Where does it come from?
 
 .panelset[
 
 .panel[.panel-name[Pattern V]
 .bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
 /dafi/ 'to be bright' > /nadafi/ 'sun'
+]
 
 ➤ Retention of POc definite article.
 
-➤ Loss of determinacy meaning. > Becomes a nominaliser.
+➤ Determiner > Nominaliser.
 ]
-]
+
 
 .panel[.panel-name[Pattern IV]
 .bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
 /naru/ 'to tie' > /n̥aru/ 'knot'
-
-➤ Historical change \*H(V)R and \*R(V)H > R̥ in Cheke Holo.
 ]
 
-.bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
-PSIs *_namaha_ > Z _namaha_, CH /nam̥a/ 'love'
+➤ Historical change \*H(V)R and \*R(V)H > R̥ in Cheke Holo.
 
-PCH \*_na-haru_ > \*_nharu_ > /n̥aru/
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+PSIs \*_namaha_ > Z _namaha_, CH /nam̥a/ 'love'
+
+PCH \*_na-haru_ > \*_nharu_ > /n̥aru/ 'knot'
 ]
 ]
 
 .panel[.panel-name[Pattern III]
 .bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
-(\*nɣ > \*ng > \*ⁿg > g): fortition and loss of prenasalisation
-
-➤ Record of loss of prenasalisation in Bughotu (Ivens 1933)
-
-PCH \*na-ɣapa > CH \*nɣapa > \*ⁿgapa > /gapa/ 'step'
+/ɣor̥a/ 'to paddle' > /gor̥a/ 'paddle'
 ]
+
+➤ Fortition, loss of pre-nasalisation
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+PCH \*_na-ɣorha_ > CH \*_nɣorha_ > \*_ⁿgorha_ > /gor̥a/ 'paddle'
+]
+
+➤ Loss of pre-nasalisation in Bughotu (Ivens 1933)
+
 ]
 
 .panel[.panel-name[Pattern II]
 .bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
-(\*nr > \*ngr > \*ⁿgr > gr, \*nl > \*ngl > \*ⁿgl > gl):
-
-excrescent stop and loss of prenasalisation
-
-PCH \*na-lehe (from /lehe/ ‘to die’) > \*nlehe > \*ⁿglehe > /glehe/ ‘death’
-
-place lenition to nasal glide (placeless) N/[ŋ] (Ohala & Lorentz 1977, Howe 2004), velarised liquids (Recasens 2011)
+/lehe/ 'to die' > /glehe/ 'death'
 ]
+
+➤ Excrescent stop, loss of pre-nasalisation.
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+PCH \*_na-lehe_ > \*_nlehe_ > \*_ⁿglehe_ > /glehe/ 'death'
+]
+
+➤ Place lenition to nasal glide (placeless) N/[ŋ] (Ohala & Lorentz 1977, Howe 2004).
+
+➤ Velarised liquids (Recasens 2011).
+
 ]
 
 .panel[.panel-name[Pattern I]
 
+.bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
+/pore/ 'to comb' > /pʰore/ 'comb'
+]
+
+.center[
+![:scale 50%](Jackie-Chan-WTF.jpg)
 ]
 
 ]
+
+]
+
+---
+class: center middle
+
+![](rhino.jpg)
+
+
+---
+
+# Rhinoglottophilia
+
+.center[
+![](rhinoglotto.png)
+]
+
+&nbsp;
+
+.f2[*The mysterious connection between nasality and glottality*]
+
+— Matisoff 1975
+
+---
+
+# From the larynx to the nasal cavity (H > N)
+
+&nbsp;
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+➤ **Laryngeal consonants nasalise vowels**
+
+English, Thai and Lao (Tai-Kadai), Lahu, Lisu, Hayu, Arakanese (Sino-Tibetan), East Gurage (Semitic), Ponapeic (Oceanic), Bantu.
+]
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+➤ **Laryngeal consonants don't block nasal spreading**
+
+South American languages.
+]
+
+---
+
+# From the nasal cavity to the larynx (N > H)
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+➤ **Nasal consonants develop into aspiration**
+]
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+Tai-Kadai (Matisoff 1975), Basque (Igartua 2011, 2015, Egurtzegi 2018), New Caledonian (Blevins & Garrett 1993).
+]
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+Owerri (Blevins & Garrett 1993): \*CVNV > \*CNV > CⁿṼ > CʰṼ
+
+Algonquian (Blevins & Garrett 1993): \*NC > hC
+
+Old Tibetan (Jacques 2011, Hill 2007): NC > Cʰ
+
+]
+
+---
+
+# Nominalisation: Pattern I .f2[*Take 2*]
+
+
+.bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
+/pore/ 'to comb'> /pʰore/ '(the) comb'
+]
+
+--
+
+&nbsp;
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+
+➤ **From nasalisation to aspiration**
+
+\*naC > \*nC > \*N̥C > Cʰ
+]
+
+.bg-washed-blue.b--blue.ba.bw2.br3.shadow-5.ph4.mt2[
+PCH \*_na-pore_  > \*_npore_ > \*_N̥pore_ > \*_ʰpore_ > /pʰore/ 'comb'
+]
+
+---
+class: inverse middle right
+
+# What are the .blue[processes] behind rhinoglottophilia?
+
+---
+
+# Ideas?
+
+&nbsp;
+
+* Carignan (Chris) 2017, 2018.
+
+  * Covariation of nasalization, tongue height, and breathiness.
+
+* Delay of glottal spreading gesture?
+
+* What else?
+
+&nbsp;
+
+<span style="font-family:Junicode;">.center[.f2[**HIC SVNT LEONES**]]</span>
+
+---
+
+# Credits
+
+Ocean Photo by <a href="https://unsplash.com/@maggie__1105?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">maggie hung</a> on <a href="https://unsplash.com/s/photos/pacific-ocean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Keyhole Photo by <a href="https://unsplash.com/@deleece?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Deleece Cook</a> on <a href="https://unsplash.com/s/photos/key?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
