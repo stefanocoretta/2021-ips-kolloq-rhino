@@ -56,6 +56,21 @@ class: center middle
 
 # Cheke Holo
 
+&nbsp;
+
+|           | Labial | Alveolar | Palatal | Velar | Glottal |
+|-----------|--------|----------|---------|-------|---------|
+| Plain  | p      | t        | tʃ      | k     | ʔ       |
+| Aspirated | pʰ     | tʰ       |         | kʰ    |         |
+| Voiced    | b      | d        | dʒ      | g     |         |
+| Fricative | f v    | s z      |         | ɣ ɣʱ  | h       |
+| Nasal     | m m̥   | n n̥     | ɲ ɲ̥    | ŋ ŋ̥  |         |
+| Rhotic    |        | r r̥     |         |       |         |
+| Lateral   |        | l l̥     |         |       |         |
+
+&nbsp;
+
+Vowels: /i e a o u/
 
 ---
 
@@ -160,7 +175,7 @@ class: inverse bg-black middle center
 
 .panel[.panel-name[Pattern IV]
 .bg-washed-green.b--green.ba.bw2.br3.shadow-5.ph4.mt2[
-/naru/ 'to tie' > /n̥aru/ 'knot'
+/haru/ 'to tie' > /n̥aru/ 'knot'
 ]
 
 ➤ Historical change \*H(V)R and \*R(V)H > R̥ in Cheke Holo.
